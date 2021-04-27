@@ -1,5 +1,41 @@
 .content {
-    width: 100%;
-    height: calc(100% - 50px);
-    background-color: snow;
+  width: 100%;
+  height: calc(100% - 50px);
+  background-color: snow;
+}
+
+.content .first-content {
+  margin-top: 20px;
+  height: 54px;
+}
+.first-content .title-lable {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.first-content .button-add {
+  display: flex;
+  float: right;
+  background-color: #01b075;
+  border: solid 1px #01b075;
+  border-radius: 5px;
+  color: white;
+  height: 30px;
+    width: 140px;
+    margin-right: 25px;
+}
+
+.button-add img{
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.button-add label{
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.button-add:hover{
+    background-color: #019160;
 }
