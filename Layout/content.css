@@ -1,12 +1,12 @@
 .content {
   width: 100%;
-  height: calc(100% - 50px);
+  height: calc(100% - 135px);
   background-color: snow;
 }
 
 .content .first-content {
   margin-top: 20px;
-  height: 54px;
+  height: 42px;
 }
 .first-content .title-lable {
   float: left;
@@ -22,20 +22,92 @@
   border-radius: 5px;
   color: white;
   height: 30px;
-    width: 140px;
-    margin-right: 25px;
+  width: 140px;
+  margin-right: 25px;
 }
 
-.button-add img{
-    height: 25px;
-    margin-left: 5px;
-    margin-top: 2px;
+.button-add img {
+  height: 25px;
+  margin-left: 5px;
+  margin-top: 2px;
 }
-.button-add label{
-    margin-top: 6px;
-    margin-left: 5px;
+.button-add label {
+  margin-top: 6px;
+  margin-left: 5px;
 }
 
-.button-add:hover{
-    background-color: #019160;
+.button-add:hover {
+  background-color: #019160;
 }
+
+#search {
+  background-image: url(/Resource/icon/search.png);
+  background-repeat: no-repeat;
+  text-indent: 32px;
+  background-position: 10px;
+  border: solid 1px #cccccc;
+  height: 28px;
+  width: 280px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.controllers-content .searching-section {
+  margin-left: 10px;
+  display: flex;
+  float: left;
+}
+
+.content .controllers-content {
+  height: 32px;
+  width: 100%;
+}
+
+.searching-section select {
+  height: 32px;
+  margin-left: 10px;
+  width: 160px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.refresh-button {
+  height: 28px;
+  width: 32px;
+  border: solid 1px #cccccc;
+  border-radius: 5px;
+  float: right;
+  margin-right: 25px;
+}
+
+.refresh-button a img {
+  margin-top: 4px;
+  margin-left: 6px;
+}
+
+.refresh-button:hover {
+  background-color: #e5e5e5;
+}
+
+.content .table-content {
+  width: 100%;
+  border-collapse: collapse;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+
+.table-content th,
+.table-content td {
+  border-bottom: 1px solid rgb(177, 177, 177);
+  padding: 8px;
+  text-align: left;
+}
+
+.table-content tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table-content tr:hover {
+  background-color: #ddd;
+}
+

@@ -17,18 +17,18 @@
 .avatar img {
   height: 35px;
 }
-.user-section .user-name{
-    margin: 17px 10px 13px 10px;
+.user-section .user-name {
+  margin: 17px 10px 13px 10px;
 }
-.user-section .option-icon{
-    margin-top: 15px;
+.user-section .option-icon {
+  margin-top: 15px;
 }
-.header .combo-box{
+.header .combo-box {
   float: left;
   height: 100%;
 }
 
-.combo-box select{
+.combo-box select {
   height: 30px;
   padding-left: 10px;
   padding-right: 10px;

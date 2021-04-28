@@ -1,91 +1,139 @@
-@import url('Layout/header.css');
-@import url('Layout/content.css');
+@import url("Layout/header.css");
+@import url("Layout/content.css");
 
 body {
-    margin: 0;
-    font-family: 'GoogleSans-Regular';
-    font-size: 13px;
+  margin: 0;
+  font-family: "GoogleSans-Regular";
+  font-size: 13px;
+  height: auto;
 }
 
 @font-face {
-    font-family: 'GoogleSans-Regular';
-    src: url('/Resource/font/GoogleSans-Regular.otf') format('opentype');
+  font-family: "GoogleSans-Regular";
+  src: url("/Resource/font/GoogleSans-Regular.otf") format("opentype");
 }
 
 @font-face {
-    font-family: 'GoogleSans-Bold';
-    src: url('/Resource/font/GoogleSans-Bold.otf') format('opentype');
+  font-family: "GoogleSans-Bold";
+  src: url("/Resource/font/GoogleSans-Bold.otf") format("opentype");
 }
 
 @font-face {
-    font-family: 'GoogleSans-Italic';
-    src: url('/Resource/font/GoogleSans-Italic.otf') format('opentype');
+  font-family: "GoogleSans-Italic";
+  src: url("/Resource/font/GoogleSans-Italic.otf") format("opentype");
 }
 
-.main{
-
+.main {
 }
 .panel-left {
-    width: 200px;
-    height: 100vh;
-    background-color: snow;
+  width: 200px;
+  height: 100vh;
+  background-color: snow;
 }
 
 .panel-right {
-    border-left: #cccccc solid 2px;
-    position: absolute;
-    top: 0;
-    left:200px;
-    width: calc(100% - 200px);
-    height: 100vh;
-    background-color: snow;
+  border-left: #cccccc solid 2px;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  width: calc(100% - 212px);
+  height: 100vh;
+  background-color: snow;
 }
 
-.panel-left .logo{
-    display: flex;
-    height: 50px;
-    width: 100%;
+.panel-left .logo {
+  display: flex;
+  height: 50px;
+  width: 100%;
 }
 
-.logo .expend-icon{
-    margin: 12px 10px 12px 16px;
-    width: 25px;
-    height: 25px;
+.logo .expend-icon {
+  margin: 12px 10px 12px 16px;
+  width: 25px;
+  height: 25px;
 }
 
-.expend-icon a img{
-    width: 24px;
-    height: 24px;
+.expend-icon a img {
+  width: 24px;
+  height: 24px;
 }
-.logo .logo-page{
-    margin-top: 8px;
-    width: calc(100% - 51px);
-}
-
-.logo img{
-    height: 35px;
+.logo .logo-page {
+  margin-top: 8px;
+  width: calc(100% - 51px);
 }
 
-.panel-left .menu{
-    width: 100%;
-    height: calc(100% - 50px);
+.logo img {
+  height: 35px;
 }
 
-.menu-item{
-    display: flex;
-    width: 100%;
-    height: 55px;
+.panel-left .menu {
+  width: 100%;
+  height: calc(100% - 50px);
 }
 
-.menu-item img{
-    margin: 12px 10px 12px 16px;
-    height: 30px;
+.menu-item {
+  display: flex;
+  width: 100%;
+  height: 55px;
 }
 
-.menu-item .item-text{
-    margin-top: 18px;
+.menu-item img {
+  margin: 12px 10px 12px 16px;
+  height: 30px;
+}
+
+.menu-item .item-text {
+  margin-top: 18px;
 }
 
 .menu-item:hover {
-    background-color: #e5e5e5;
+  background-color: #e5e5e5;
+}
+
+.paging {
+  border-top: solid 1px #cccccc;
+  margin: 0 30px 0 10px;
+  width: calc(100% - 30px);
+  display: flex;
+}
+
+.paging .paging-part{
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+.paging .paging-text{
+    width: calc(100% / 3);
+    padding-top: 22px;
+    margin-left: 15px;
+}
+
+.paging-part .paging-controllers{
+    width: 176px;
+    display: flex;
+    margin: 0 auto;
+}
+.dot{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 12px;
+    background-color: snow;
+    margin-right: 5px;
+}
+
+.dot p{
+    margin-top: 6px;
+    width: 29px;
+    color: black;
+}
+
+#not-selected:hover{
+    background-color: #019160;
+}
+
+#not-selected:hover p{
+    color: snow;
 }

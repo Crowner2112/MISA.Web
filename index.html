@@ -69,15 +69,128 @@
           <div class="first-content">
             <label class="title-lable">Danh sách nhân viên</label>
             <div class="button-add">
-              <img src="/Resource/icon/add.png">
+              <img src="/Resource/icon/add.png" />
               <label>Thêm nhân viên</label>
             </div>
           </div>
           <div class="controllers-content">
-
+            <div class="searching-section">
+              <div class="text-box">
+                <input
+                  type="text"
+                  placeholder="Tìm kiếm theo mã, tên hoặc số điện thoại"
+                  id="search"
+                />
+              </div>
+              <div class="first-cbbox">
+                <select>
+                  <option>Tất cả phòng ban</option>
+                  <option value="">Phòng đào tạo</option>
+                  <option value="">Phòng marketing</option>
+                </select>
+              </div>
+              <div class="second-cbbox">
+                <select>
+                  <option>Tất cả vị trí</option>
+                  <option value="">Thu ngân</option>
+                  <option value="">Dev</option>
+                </select>
+              </div>
+            </div>
+            <div class="refresh-button">
+              <a href=""><img src="/Resource/icon/refresh.png" /></a>
+            </div>
           </div>
-          <div class="table-content">
-
+          <table class="table-content">
+            <tr>
+              <th>Mã nhân viên</th>
+              <th>Họ và tên</th>
+              <th>Giới tính</th>
+              <th>Ngày sinh</th>
+              <th>Điện thoại</th>
+              <th>Email</th>
+              <th>Chức vụ</th>
+              <th>Phòng ban</th>
+              <th>Mức lương cơ bản</th>
+              <th>Tình trạng công việc</th>
+            </tr>
+            <tr>
+              <td>5161162</td>
+              <td>Đỗ Anh Đức</td>
+              <td>Nam</td>
+              <td>21/12/1999</td>
+              <td>0975681250</td>
+              <td>docongtu1234@gmail.com</td>
+              <td>Fresher</td>
+              <td>Đào tạo</td>
+              <td>3.000.000</td>
+              <td>Thử việc</td>
+            </tr>
+            <tr>
+              <td>5161162</td>
+              <td>Đỗ Anh Đức</td>
+              <td>Nam</td>
+              <td>21/12/1999</td>
+              <td>0975681250</td>
+              <td>docongtu1234@gmail.com</td>
+              <td>Fresher</td>
+              <td>Đào tạo</td>
+              <td>3.000.000</td>
+              <td>Thử việc</td>
+            </tr>
+            <tr>
+              <td>5161162</td>
+              <td>Đỗ Anh Đức</td>
+              <td>Nam</td>
+              <td>21/12/1999</td>
+              <td>0975681250</td>
+              <td>docongtu1234@gmail.com</td>
+              <td>Fresher</td>
+              <td>Đào tạo</td>
+              <td>3.000.000</td>
+              <td>Thử việc</td>
+            </tr>
+            <tr>
+              <td>5161162</td>
+              <td>Đỗ Anh Đức</td>
+              <td>Nam</td>
+              <td>21/12/1999</td>
+              <td>0975681250</td>
+              <td>docongtu1234@gmail.com</td>
+              <td>Fresher</td>
+              <td>Đào tạo</td>
+              <td>3.000.000</td>
+              <td>Thử việc</td>
+            </tr>
+            <tr>
+              <td>5161162</td>
+              <td>Đỗ Anh Đức</td>
+              <td>Nam</td>
+              <td>21/12/1999</td>
+              <td>0975681250</td>
+              <td>docongtu1234@gmail.com</td>
+              <td>Fresher</td>
+              <td>Đào tạo</td>
+              <td>3.000.000</td>
+              <td>Thử việc</td>
+            </tr>
+          </table>
+        </div>
+        <div class="paging">
+          <div class="paging-text">Hiển thị 1-10/1000 nhân viên</div>
+          <div class="paging-part">
+            <div class="paging-controllers">
+              <div class="dot" style="background-color: #01b075">
+                <p style="color: snow">1</p>
+              </div>
+              <div class="dot" id="not-selected"><p>2</p></div>
+              <div class="dot" id="not-selected"><p>3</p></div>
+              <div class="dot" id="not-selected"><p>></p></div>
+              <div class="dot" id="not-selected"><p>>></p></div>
+            </div>
+          </div>
+          <div class="paging-text" style="text-align: right;">
+            10 nhân viên/trang
           </div>
         </div>
       </div>
